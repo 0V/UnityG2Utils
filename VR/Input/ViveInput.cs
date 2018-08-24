@@ -20,7 +20,7 @@ namespace UnityG2Utils.VR.Input
                 .Where(s => s == SteamVRControllerState.TriggerPressDown)
                 .Subscribe(_ =>
                 {
-                	// Triggerが惹かれたら何かをする
+                	// Triggerが引かれたら何かをする
                 });
         }
     }
